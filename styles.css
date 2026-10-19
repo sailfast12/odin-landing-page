@@ -1,14 +1,33 @@
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" <width>;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 32px;
+    justify-content:space-around;
+}
+
+.header-section {
+    display: flex;
     background-color: #1F2937;
+    justify-content: center;
+    padding: 50px;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    align-items: start;
 }
 
 nav ul {
@@ -17,6 +36,34 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    font-size: 24px;
+    font-size: 16px;
+    font-weight:100;
     color: #F9FAF8;
+}
+
+.hero-section {
+    display: grid;
+    background-color: #50698d;
+    padding: 50px;
+
+}
+
+.quote {
+    display: grid;
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.cta {
+    display:flex;
+    background-color: #F9FAF8;
+    padding: 50px;
+}
+.cta-box {
+    display: flex;
+    background-color: #3882F6;
+}
+.footer {
+    display: flex;
+    background-color: #1F2937;
 }
