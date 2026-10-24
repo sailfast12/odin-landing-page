@@ -123,8 +123,24 @@ p {
 
 .quote {
     background-color: #E5E7EB;
+    padding: 100px 0px;
 }
 
+.quote-container {
+    max-width: 780px;
+    margin: 0 auto;
+}
 .quote-text h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.quote-text h5 {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
     margin-top: 0;
 }
