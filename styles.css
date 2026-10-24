@@ -66,42 +66,65 @@ p {
 
 .hero-text {
     color: #F9FAF8;
-    max-width: 480px;
+    max-width: 450px;
 }
+
 .hero-image img {
     max-width: 480px;
 }
 
 .hero-container button {
-    padding: 5px 20px;
+    padding: 6px 28px;
     background-color: #3882F6;
     border-radius: 10px;
+    font-weight:bold;
+    color:#F9FAF8;
+    border: none;
 }
 
-.random-info img {
+.random-info-container {
+    background-color: #F9FAF8;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+
+.random-info-header {
+    margin-bottom: 50px;
+}
+
+#random-info-title {
     display: flex;
-    justify-content:space-evenly;
-    border-radius: 3px;
-    height: 50px;
-    width: 50px;
+    justify-content: center;
+}
+
+.random-info-pics {
+    display: flex;
+    justify-content:space-around;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.random-info-pics .image {
+    max-width: 150px;
+}
+.random-info-pics img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border:#3882F6;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+}
+
+.random-info-pics p {
+    text-align: center;
 }
 
 .quote {
-    display: grid;
     background-color: #E5E7EB;
-    padding: 50px;
 }
 
-.cta {
-    display:flex;
-    background-color: #F9FAF8;
-    padding: 50px;
-}
-.cta-box {
-    display: flex;
-    background-color: #3882F6;
-}
-.footer {
-    display: flex;
-    background-color: #1F2937;
+.quote-text h1 {
+    margin-top: 0;
 }
